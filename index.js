@@ -15,9 +15,9 @@ app.get('/', (req, res) => {
 });
 
 app.get('/api/pessoas', (req, res) => {
-    console.log(req);
+    console.log(req)
 
-    res.send(listaPessoas);
+    res.send(listaPessoas)
 });
 
 app.post('/api/pessoas', (req, res) => {
