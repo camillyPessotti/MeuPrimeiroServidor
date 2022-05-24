@@ -15,9 +15,9 @@ app.get('/', (req, res) => {
 });
 
 app.get('/api/pessoas', (req, res) => {
-    console.log(req)
+    console.log(req);
 
-    res.send(listaPessoas)
+    res.send(listaPessoas);
 });
 
 app.post('/api/pessoas', (req, res) => {
@@ -54,7 +54,7 @@ const listaUsuarios = [
     { id: 1, nome: "Camiss", senha: "1" },
     { id: 2, nome: "Briuna", senha: "1" },
     { id: 3, nome: "Joaozadarada", senha: "1"}
-]
+];
 
 app.get('/api/usuarios', (req, res) => {
     console.log(req);
