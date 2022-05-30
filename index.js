@@ -56,6 +56,10 @@ const listaUsuarios = [
     { id: 3, nome: "Joaozadarada", senha: "1"}
 ];
 
+app.get('/', (req, res) => {
+    res.send('Servidor rodando')
+})
+
 app.get('/api/usuarios', (req, res) => {
     console.log(req);
 
